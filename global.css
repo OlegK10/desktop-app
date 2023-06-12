@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+  	border:none;
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: var( --c1) ;
+    font-family:var(--ff-t) ;
+    transition: .22s all;
+    }	
+
+button, a{cursor: pointer;}
+body{
+  overflow: hidden;
+}
+.noselect{
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+}
+:root{
+  --ff-t: 'Montserrat', sans-serif;
+
+  --c1: rgba(18,18,18,.8);
+  --c2: rgba(147, 255, 111, 0.785);
+  --c-w-1:  rgba(248,248,248);
+}

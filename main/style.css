@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+}
+.top_cont{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: rgba(25, 25, 25, 0.2);
+    box-shadow: inset 0px 0px 61px -7px #000000;
+    border-radius: 27px;
+    height: 43px;width: 801px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0 ;
+}
+.top_contnet{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tc_ul{
+    cursor:pointer;
+    margin: 0 12px;
+}
+
+.tc_tit, .tc_li_tit{
+    color:#fff;
+}
+.tc_tit{
+    padding: 7px 22px;
+}
+.tc_tit:hover{
+    background-color: rgba(49, 49, 49, 0.7);
+    border-radius: 15px;
+}
+
+.tc_ol{
+    display: none;
+    position: absolute;
+    width: 278px;
+    height: 170px;
+    margin-top: 16px;
+    background: rgba(0, 0, 0, 0.29);
+    box-shadow: inset 0px 0px 91px -23px #000000;
+    border-radius: 13px;
+}
+
+.tc_li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 14px 0;
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.tc_li:hover{
+    background-color: rgba(49, 49, 49, 0.7);
+}
+
+.tc_li_tit{
+    position: relative;
+    margin-left: 15px;
+}
+
+.tc_li_img{
+    width: 28px;
+    height: 28px;
+}
+
+.i_bl{
+    width: 32px;
+    height: 24px;
+}
+
+
+
+.pyl_cont{
+    position: absolute;
+    z-index: 9;
+    right: -560px;
+    bottom: 100px;
+}
+
+.pyl_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.btnToShowPyl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 300px;
+    
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 42px 1px #000000;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.PylL{
+    position: absolute;
+    font-size: 31px;
+    top: 120px;
+    left: 200px;
+    z-index: -1;
+}
+
+.PylL_ref{
+    position: absolute;
+    font-size: 31px;
+    top: 200px;
+    cursor: pointer;
+    left: 200px;
+    z-index: -1;
+}
+
+
+
+
+.task_cont{
+    position: absolute;
+    width: 100%;
+    bottom: 48px;
+    display: flex;
+    justify-content: center;
+}
+.tcd_tit, .tcd_l_i_tit, .tcd_li_i_date{
+    color:#fff;
+}
+.task_content{
+    position: relative;
+    width: 334px;
+    overflow-y: scroll;
+    height: 146px;
+    background: rgba(0, 0, 0, 0.29);
+    box-shadow: inset 0px 0px 192px -74px #000000;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+.btn_addTask{
+position: absolute;
+right: 10px;
+top:10px
+}
+
+.tcd_tit{
+    position: relative;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.tcd_ul{
+    margin-top: 12px;
+    padding: 0 30px;
+}
+.tcd_r{
+    cursor: pointer;
+}
+.tcd_l_i{
+    margin: 17px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #fff;
+}
+
+.cdt_r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tcd_li_i_date{
+margin: 0 12px;
+}
+
+.tcd_add{
+    color:#fff;
+    font-size: 15px;
+}
+
+.tcd_lin{
+    padding: 0 7px;
+    color:#fff;
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+.tcd_lin::placeholder{
+    color:#fff;
+}
+
+.tcd_lin_1{
+    width: 120px;
+}
+
+.btn_addTask:hover{
+    cursor: pointer;
+    transform: scale(98%);
+    opacity: .7;
+}
+
+.tcd_lin_2{
+    width: 70px;
+}
+
+.tcd_add{
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.tcd_l_i_adt{
+    display: none;
+    padding: 0 12px;
+}
+
+.tcd_add:hover{
+    color: #6CB3B8;
+
+}
+
+
+.nexIn{
+    position: absolute;
+    right: 120px;
+    top: 400px;
+}
+
+
+.ni_dn{
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.ni_d{
+    font-size: 32px;
+}
+
+.ni_dn_date{
+    font-size: 20px;width: 98px;
+    margin-left: 30px;
+}
+
+.ni_tim{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.nic_mc{
+    font-size:96px;
+}
+
+.nic_mm{
+    font-size:96px;
+    margin-left: 14px;
+    color:#6CB3B8;
+}
+
+.ni_cs{
+    font-size: 36px;
+    width: 39px;
+    margin-left: 14px;
+}
+
+.ni_poc{
+    display: flex;
+}
+
+.nic_mm_c{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 231px;
+}
+
+.ni_c{
+font-size: 32px;
+}
+
+.nic_cc{
+    display: flex;
+
+}
+
+.ni_cim{
+    width: 29px;
+    height: 28px;
+}
+
+.ni_te{
+    display: flex;
+    margin: 0 20px;
+    width: 60px;
+    margin-top: 32px;
+}
+
+.ni_te_i{
+    font-size: 28px;
+}
+
+.ni_ico{
+    display: flex;
+    justify-content: center;
+}
+
+.ni_i{
+    width: 40px;
+    margin:0 15px;
+    margin-top: 22px;
+}
+
+.ni_i:hover{
+    filter:grayscale();
+    cursor: pointer;
+}
